@@ -1,0 +1,44 @@
+.navbar{
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5.0625rem;
+}
+
+.navbar .logo > h1{
+    font-size: 1.5rem;
+    color: #5ED8FF;
+    text-shadow: 0 0 8px black;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: bolder;
+}
+
+.navbar .navLinks ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.navbar .navLinks ul li{
+    border-bottom: 3px solid #5ED8FF;
+}
+.navbar .navLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+@media (max-width: 660px) {
+    .navbar {
+     flex-direction: column;
+    }
+    .navbar .logo > h1{
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+  }
