@@ -1,0 +1,22 @@
+.contactHeader {
+    padding: 0 8.0625rem;
+}
+
+.contactHeader h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.contactHeader p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+}
+
+
+@media (max-width: 660px) {
+    .contactHeader h1 {
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+}

@@ -1,12 +1,16 @@
-import Contact from './Components/Contact'
-import Navbar from './Components/Navbar'
+import ContactForm from './Components/ContactForm'
+import ContactHeader from './Components/ContactHeader'
+import Navbar from './Components/Navbar';
 
 function App() {
 
   return (
     <div className="app">
       <Navbar />
-      <Contact />
+      <div className="mainContainer">
+        <ContactHeader />
+        <ContactForm />
+      </div>
     </div>
   )
 }

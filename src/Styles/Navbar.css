@@ -8,8 +8,8 @@
 
 .navbar .logo > h1{
     font-size: 1.5rem;
-    color: #5ED8FF;
-    text-shadow: 0 0 8px black;
+    color: #2b97bb;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.596);
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 8px;
